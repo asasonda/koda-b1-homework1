@@ -12,7 +12,7 @@ flowchart TD
     cek -- tidak --> cek2{i == 2?}
     cek2 -- ya --> spasi2[spasi dikurang sebanyak n-2]
     cek2 -- tidak --> cek3{i == 3?}
-    cek3 --> ya --> spasi3[spasi dikurang sebanyak n-3]
+    cek3 -- ya --> spasi3[spasi dikurang sebanyak n-3]
 
     Spasi1 --> lanjut[bintang = bintang + **]
     spasi2 --> lanjut
